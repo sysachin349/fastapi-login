@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1> Yahoo Not Spam Application</h1>
+  <p>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+  <h2>Please select below options to </h2>
+  <h3>Subject:</h3>
+  <body style="background-color: gray;"></body>
+  <form action="/uploadfiles/" enctype="multipart/form-data" method="post">
+  <textarea id="w3review" name="Subject" rows="2" cols="50" placeholder="Enter the subject string"></textarea>
+  <p>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+  <h3>Choose the channel:</h3>
+  
+  <input type="radio" id="chrome" name="channel" value="chrome">
+  <label for="chrome">chrome</label><br>
+  <input type="radio" id="chrome-beta" name="channel" value="chrome-beta">
+  <label for="chrome-beta">chrome-beta</label><br>
+  <input type="radio" id="chrome-dev" name="channel" value="chrome-dev">
+  <label for="chrome-dev">chrome-dev</label>
+  <input type="radio" id="chrome-canary" name="channel" value="chrome-canary">
+  <label for="chrome-canary">chrome-canary</label>
+  <input type="radio" id="msedge" name="channel" value="msedge">
+  <label for="msedge">msedge</label>
+  <input type="radio" id="msedge-beta" name="channel" value="msedge-beta">
+  <label for="msedge-beta">msedge-beta</label>
+  <input type="radio" id="msedge-dev" name="channel" value="msedge-dev">
+  <label for="msedge-dev">msedge-dev</label>
+  <input type="radio" id="msedge-canary" name="channel" value="msedge-canary">
+  <label for="msedge-canary">msedge-canary</label>
+  <p>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+  <p> Do you want ViewPoint (optional)</p>
+  <input type="radio" id="ViewPoint" name="ViewPoint" value="ViewPoint">
+  <label for="ViewPoint">yes</label>
+  <input type="radio" id="ViewPoint" name="ViewPoint" value="ViewPoint">
+  <label for="ViewPoint">no</label>
+  <p>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+  <p> Speed of not Spam</p>
+  <input type="radio" id="slow_mo" name="slow_mo" value="slow_mo">
+  <label for="slow_mo">Slow</label>
+  <input type="radio" id="slow_mo" name="slow_mo" value="slow_mo">
+  <label for="slow_mo">moderate</label>
+  <input type="radio" id="slow_mo" name="slow_mo" value="slow_mo">
+  <label for="slow_mo">fast</label>
+  <p>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+  <p>Mobile</p>
+  <p>Whether the meta viewport tag is taken into account and touch events are enabled. Defaults to false. Not supported in Firefox.</p>
+  <p>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+  <p>color_scheme</p>
+  <p>Emulates 'prefers-colors-scheme' media feature, supported values are 'light', 'dark', 'no-preference'. See page.emulate_media() for more details. Defaults to 'light'.</p>
+  <p>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+  <p> Please upload csv files with header information</p>
+  <p>FirstName|LastName|UserName|Password|RecoveryMail|Gender|PhoneNo|Month|Date|Year|proxyIp|Port </p>
+
+  <h2>Select the profile.csv file to upload extra details</h2>
+  <input name="files" type="file" multiple>
+  <input type="submit">
+  </form>
+  </body>  
+</html>
